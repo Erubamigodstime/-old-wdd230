@@ -25,7 +25,7 @@ header{
 }
 
 h1{
-    
+    font-size: 2.5rem; 
     grid-column: 2/3;
     grid-row: 2/3;
     
@@ -41,10 +41,12 @@ img{
     border-radius: 15px;
 }
 p{
+    font-size: 2.0rem; 
     grid-column: 1/2;
-    color: darkgrey;
+    color: rgb(20, 19, 19);
 }
 footer{
+    font-size: 1.6rem; 
     background-color: blue;
     border:2px solid gray;
     border-radius: 15px;
