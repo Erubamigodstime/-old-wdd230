@@ -20,6 +20,9 @@ header{
 h2{
     width: 100%;
 }
+.name{
+    margin-top: 15px;
+}
 a{
     text-decoration: none;
     color: black;
