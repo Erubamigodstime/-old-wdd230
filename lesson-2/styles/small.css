@@ -7,7 +7,9 @@ body{
     line-height: 1.5rem;
 
 }
-
+h1{
+    margin-bottom: 20px;
+}
 
 header{
     background-color:#344E41;
@@ -15,13 +17,13 @@ header{
     padding: 20px;
     text-shadow: 0 0 20px brown;
     text-align: center;
-    line-height: 2.0rem;
+    
 }
 h2{
     width: 100%;
 }
 .name{
-    margin-top: 15px;
+    margin-top: 20px;
 }
 a{
     text-decoration: none;
@@ -30,8 +32,10 @@ a{
 .letter{
     background-color: #344E41;
     color:#DFF6FF;
-    padding-top: 10px;
-    box-sizing: border-box;
+    padding-top: 25px;    
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px   
+    
 }
 .text{
     padding: 0px 10px;
@@ -39,7 +43,7 @@ a{
 
 .main-container{
     display: grid;
-    /*grid-template-columns: 1fr 1fr 1fr; */  
+    /*grid-template-columns: 1fr 1fr 1fr; */
     margin: 25px 25px;
     grid-gap: 20px;
 }
@@ -47,7 +51,8 @@ a{
     /*grid-column: 1/2;*/
     background-color:#A3B18A;
     border: 2px gray solid;
-    box-shadow: 0 0 20px palevioletred;
+    box-shadow: 0 0 30px #A3B18A;
+    border-radius: 15px;
    
 }
 
@@ -57,7 +62,7 @@ a{
     background-color:#A3B18A;
     border: 2px gray solid; 
     border-radius: 15px;
-    box-shadow: 0 0 20px palevioletred;  
+    box-shadow: 0 0 30px #A3B18A;  
     
 }
 
@@ -66,7 +71,7 @@ a{
     background-color:#A3B18A;
     border: 2px gray solid;
     border-radius: 15px;
-    box-shadow: 0 0 20px palevioletred;    
+    box-shadow: 0 0 30px #A3B18A;    
     
 }
 img{
