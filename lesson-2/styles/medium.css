@@ -1,0 +1,37 @@
+@media only screen and (min-width: 32.5em){
+    .main-container{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+
+
+
+
+    .contrast-container{
+        grid-column: 1/2;
+        
+        
+        
+       
+    }
+    
+    
+    .alignment-container{
+        grid-column: 2/3;
+        
+        
+       
+          
+        
+    }
+    
+    .space-container{
+        grid-column: 1/2;
+        
+        
+
+         
+        
+    }
+}  
