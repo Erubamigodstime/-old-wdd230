@@ -12,6 +12,10 @@ header, nav, main, footer{
     margin: 1.25rem auto;
     max-width: 760px;
 }
+
+
+
+
 header{
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -46,9 +50,13 @@ p{
     grid-column: 1/2;
     color: rgb(20, 19, 19);
 }
+
+
+
+
 footer{
     font-size: 1.6rem; 
-    background-color: blue;
+    background-color: blue;    
     border:2px solid gray;
     border-radius: 15px;
 }
