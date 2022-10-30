@@ -42,7 +42,7 @@ a{
 }
 
 .main-container{
-    display: grid;
+    /*display: grid;*/
     /*grid-template-columns: 1fr 1fr 1fr; */
     margin: 25px 25px;
     grid-gap: 20px;
@@ -58,7 +58,7 @@ a{
 
 
 .alignment-container{
-    /*grid-column: 2/3;*/
+    /*grid-column: 3/4;*/
     background-color:#A3B18A;
     border: 2px gray solid; 
     border-radius: 15px;
