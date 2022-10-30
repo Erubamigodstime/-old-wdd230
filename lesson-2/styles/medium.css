@@ -2,7 +2,7 @@
     .main-container{
         display: grid;
         grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr 1fr;
+        grid-template-rows: 1fr ;
         
         }
 
@@ -10,7 +10,7 @@
 
 
 
-    .contrast-container{
+    /**.contrast-container{
         grid-column: 1/2;
         
     }
@@ -25,5 +25,5 @@
     .space-container{
         grid-column: 1/2;
         
-    }
+    }**/
 }  
